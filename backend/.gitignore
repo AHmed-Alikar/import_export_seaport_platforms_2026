@@ -1,0 +1,15 @@
+# Environment variables — real secrets belong here, never in git
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
